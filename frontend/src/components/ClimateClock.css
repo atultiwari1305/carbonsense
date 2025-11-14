@@ -4,7 +4,7 @@
   left: 50%;
   transform: translateX(-50%);
 
-  z-index: 300;
+  z-index: 3000;
 
   /* Very light glass effect */
   background: rgba(255, 255, 255, 0.12);
@@ -21,10 +21,10 @@
 /* Title */
 .clock-row {
   text-align: center;
-  font-size: 0.75rem;         /* Smaller title */
-  color: #eef2f3;
-  margin-bottom: 3px;
-
+  font-size: 1rem;         /* Smaller title */
+  color: #00596fff;
+  margin-bottom: 5px;
+  font-weight: bold;
   text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
 }
 

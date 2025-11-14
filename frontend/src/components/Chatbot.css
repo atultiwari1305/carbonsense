@@ -98,7 +98,7 @@
 
 .state-selector select:focus {
   outline: none;
-  border-color: #667eea;
+  border-color: #256670;
 }
 
 .state-selector select:disabled {
@@ -135,7 +135,7 @@
 .loading-text {
   text-align: center;
   padding: 2rem;
-  color: #667eea;
+  color: #256670;
   font-style: italic;
 }
 
@@ -154,7 +154,7 @@
   padding: 1rem;
   border-radius: 8px;
   margin-bottom: 1rem;
-  border-left: 4px solid #667eea;
+  border-left: 4px solid #256670;
 }
 
 .program-card h5 {
@@ -164,7 +164,7 @@
 
 .org-tag {
   display: inline-block;
-  background: #667eea;
+  background: #256670;
   color: white;
   padding: 0.25rem 0.75rem;
   border-radius: 15px;

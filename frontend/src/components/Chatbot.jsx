@@ -14,15 +14,16 @@ const Chatbot = () => {
   // For local development: use '/api/chatbot/states'
   // For production: use 'https://your-backend.onrender.com/api/chatbot/states'
   const API_BASE_URL = process.env.REACT_APP_API_URL || '';
-
+// eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     fetchStates();
   }, []);
 
+
   const fetchStates = async () => {
     try {
-      console.log('Fetching states from:', `${API_BASE_URL}/api/chatbot/states`);
-      const response = await axios.get(`${API_BASE_URL}/api/chatbot/states`);
+      console.log('Fetching states from:', `${API_BASE_URL}/api/chatbot/states/`);
+      const response = await axios.get(`${API_BASE_URL}/api/chatbot/states/`);
       console.log('States response:', response.data);
       
       if (response.data.success && response.data.data) {
