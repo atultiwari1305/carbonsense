@@ -1,0 +1,352 @@
+{
+  "Andhra Pradesh": {
+    "programs": [
+      {
+        "name": "Solar Power Policy 2015-2020",
+        "organization": "Government",
+        "description": "Promotes solar power generation with target of 5000 MW by 2020"
+      },
+      {
+        "name": "Electric Vehicle Policy 2018-2023",
+        "organization": "Government",
+        "description": "Incentives for EV adoption and charging infrastructure development"
+      }
+    ],
+    "suggestions": [
+      "Expand rooftop solar programs in urban areas",
+      "Develop wind energy projects along coastal regions",
+      "Implement green hydrogen production facilities"
+    ]
+  },
+  "Delhi": {
+    "programs": [
+      {
+        "name": "Delhi Electric Vehicle Policy 2020",
+        "organization": "Government",
+        "description": "Target to make Delhi EV capital with 25% EVs by 2024, over 10,000 charging stations deployed"
+      },
+      {
+        "name": "Switch Delhi Campaign",
+        "organization": "Government",
+        "description": "Promoting electric mobility and air quality improvement"
+      }
+    ],
+    "suggestions": [
+      "Enhance metro connectivity to reduce private vehicle usage",
+      "Implement congestion pricing in high-traffic areas",
+      "Expand tree plantation drives to create carbon sinks"
+    ]
+  },
+  "Gujarat": {
+    "programs": [
+      {
+        "name": "Solar Park in Rann of Kutch",
+        "organization": "Government",
+        "description": "Asia's largest solar park operational in 2025"
+      },
+      {
+        "name": "Climate Risk Insurance Scheme",
+        "organization": "Government",
+        "description": "First Indian state to launch climate risk insurance for farmers"
+      },
+      {
+        "name": "Green Hydrogen Project",
+        "organization": "Government",
+        "description": "100 MW green hydrogen project commissioned, largest in Asia"
+      },
+      {
+        "name": "Electric Bus Fleet Rollout",
+        "organization": "Government",
+        "description": "Zero-emission public transport in Ahmedabad and Surat"
+      }
+    ],
+    "suggestions": [
+      "Scale up green hydrogen production for industrial decarbonization",
+      "Expand renewable energy capacity beyond current targets",
+      "Implement carbon credit trading scheme pilots"
+    ]
+  },
+  "Maharashtra": {
+    "programs": [
+      {
+        "name": "Mumbai Climate Action Plan 2025",
+        "organization": "Government",
+        "description": "Aims for Net Zero by 2050 with comprehensive urban sustainability measures"
+      },
+      {
+        "name": "Zero-Emission Public Transport",
+        "organization": "Government",
+        "description": "Pune and Nagpur adopting electric public transport systems"
+      },
+      {
+        "name": "Maharashtra Green Army",
+        "organization": "Government",
+        "description": "Youth engagement program for climate action projects"
+      },
+      {
+        "name": "Climate Bonds Initiative",
+        "organization": "Government",
+        "description": "Using climate bonds to fund sustainable city infrastructure"
+      }
+    ],
+    "suggestions": [
+      "Expand green building certification programs",
+      "Develop waste-to-energy projects in urban areas",
+      "Create more urban forests and green corridors"
+    ]
+  },
+  "Tamil Nadu": {
+    "programs": [
+      {
+        "name": "Tamil Nadu Climate Mission 2.0",
+        "organization": "Government",
+        "description": "Updated State Action Plan on Climate Change launched in 2025"
+      },
+      {
+        "name": "Renewable Energy Expansion",
+        "organization": "Government",
+        "description": "Major focus on wind and solar energy capacity addition"
+      }
+    ],
+    "suggestions": [
+      "Develop offshore wind energy projects",
+      "Implement smart grid technology for better energy management",
+      "Promote sustainable agriculture practices"
+    ]
+  },
+  "Kerala": {
+    "programs": [
+      {
+        "name": "Community-Based Climate Resilience",
+        "organization": "Government/NGO",
+        "description": "Climate resilience initiatives with community participation"
+      },
+      {
+        "name": "Electric Mobility Leadership",
+        "organization": "Government",
+        "description": "One of the leaders in EV adoption with extensive charging infrastructure"
+      }
+    ],
+    "suggestions": [
+      "Expand biogas programs in rural areas",
+      "Promote eco-tourism to fund conservation efforts",
+      "Implement watershed management programs"
+    ]
+  },
+  "Karnataka": {
+    "programs": [
+      {
+        "name": "Solar Policy Implementation",
+        "organization": "Government",
+        "description": "Large-scale solar power projects and rooftop solar programs"
+      },
+      {
+        "name": "Urban Transport Electrification",
+        "organization": "Government",
+        "description": "Electric bus deployment in Bangalore and other cities"
+      }
+    ],
+    "suggestions": [
+      "Develop technology parks with net-zero emissions",
+      "Implement rainwater harvesting mandates",
+      "Create carbon offset programs for IT sector"
+    ]
+  },
+  "Rajasthan": {
+    "programs": [
+      {
+        "name": "Solar Energy Projects",
+        "organization": "Government",
+        "description": "Extensive solar power generation due to abundant sunlight"
+      }
+    ],
+    "suggestions": [
+      "Expand solar parks in desert regions",
+      "Develop concentrated solar power projects",
+      "Implement desert afforestation programs"
+    ]
+  },
+  "Himachal Pradesh": {
+    "programs": [
+      {
+        "name": "Community-Based Afforestation",
+        "organization": "Government/NGO",
+        "description": "Expanding community-based afforestation programs for carbon sequestration"
+      },
+      {
+        "name": "Himalayan Ecosystem Preservation",
+        "organization": "Government",
+        "description": "Focus on preserving Himalayan ecosystem under NAPCC"
+      }
+    ],
+    "suggestions": [
+      "Develop small-scale hydropower projects",
+      "Promote eco-friendly tourism practices",
+      "Implement sustainable forest management"
+    ]
+  },
+  "Uttarakhand": {
+    "programs": [
+      {
+        "name": "Afforestation Programs",
+        "organization": "Government",
+        "description": "Expanding forest cover for carbon sink creation"
+      },
+      {
+        "name": "Himalayan Ecosystem Conservation",
+        "organization": "Government",
+        "description": "Protecting mountain ecosystems and biodiversity"
+      }
+    ],
+    "suggestions": [
+      "Develop micro-hydro power projects",
+      "Implement organic farming initiatives",
+      "Create green buffer zones around protected areas"
+    ]
+  },
+  "Chhattisgarh": {
+    "programs": [
+      {
+        "name": "Just Transition Studies",
+        "organization": "Government",
+        "description": "Conducting studies for coal-reliant workers and districts transition"
+      },
+      {
+        "name": "Forest Carbon Sink Programs",
+        "organization": "Government",
+        "description": "Focus on maintaining and expanding forest cover"
+      }
+    ],
+    "suggestions": [
+      "Develop renewable energy alternatives to coal",
+      "Implement skill development for coal workers",
+      "Create community-based forest management systems"
+    ]
+  },
+  "Jharkhand": {
+    "programs": [
+      {
+        "name": "Just Transition Studies",
+        "organization": "Government",
+        "description": "Planning transition for coal-dependent economy"
+      }
+    ],
+    "suggestions": [
+      "Develop solar energy projects on mining land",
+      "Implement afforestation on degraded mining areas",
+      "Create alternative livelihood programs"
+    ]
+  },
+  "West Bengal": {
+    "programs": [
+      {
+        "name": "Renewable Energy Initiatives",
+        "organization": "Government",
+        "description": "Solar and wind energy projects"
+      }
+    ],
+    "suggestions": [
+      "Expand rooftop solar in urban areas",
+      "Develop tidal energy projects in coastal regions",
+      "Implement sustainable agriculture practices"
+    ]
+  },
+  "Odisha": {
+    "programs": [
+      {
+        "name": "Green Hydrogen Roadmap",
+        "organization": "Government",
+        "description": "State-specific green hydrogen roadmap for industrial decarbonization"
+      }
+    ],
+    "suggestions": [
+      "Expand renewable energy for green hydrogen production",
+      "Develop coastal wind energy projects",
+      "Implement mangrove restoration programs"
+    ]
+  },
+  "Madhya Pradesh": {
+    "programs": [
+      {
+        "name": "Solar Power Projects",
+        "organization": "Government",
+        "description": "Large-scale solar energy development"
+      }
+    ],
+    "suggestions": [
+      "Expand solar parks in suitable regions",
+      "Implement biomass energy projects",
+      "Develop agroforestry programs"
+    ]
+  },
+  "Uttar Pradesh": {
+    "programs": [
+      {
+        "name": "Renewable Energy Targets",
+        "organization": "Government",
+        "description": "Solar and wind energy capacity addition"
+      }
+    ],
+    "suggestions": [
+      "Develop rooftop solar programs in cities",
+      "Implement biogas projects in rural areas",
+      "Expand public transport electrification"
+    ]
+  },
+  "Punjab": {
+    "programs": [
+      {
+        "name": "Stubble Management Programs",
+        "organization": "Government",
+        "description": "Initiatives to reduce agricultural burning"
+      }
+    ],
+    "suggestions": [
+      "Promote crop residue management technologies",
+      "Develop biomass energy from agricultural waste",
+      "Implement sustainable farming practices"
+    ]
+  },
+  "Haryana": {
+    "programs": [
+      {
+        "name": "Electric Vehicle Adoption",
+        "organization": "Government",
+        "description": "EV policy and charging infrastructure development"
+      }
+    ],
+    "suggestions": [
+      "Expand solar energy capacity",
+      "Implement water-efficient agriculture",
+      "Develop urban green spaces"
+    ]
+  },
+  "Telangana": {
+    "programs": [
+      {
+        "name": "Solar Power Development",
+        "organization": "Government",
+        "description": "Large-scale solar projects and rooftop solar programs"
+      }
+    ],
+    "suggestions": [
+      "Develop IT sector carbon neutrality programs",
+      "Expand electric public transport",
+      "Implement sustainable water management"
+    ]
+  },
+  "Assam": {
+    "programs": [
+      {
+        "name": "Sustainable Agriculture Programs",
+        "organization": "Government",
+        "description": "Focus on climate-resilient agriculture"
+      }
+    ],
+    "suggestions": [
+      "Develop biomass energy projects",
+      "Implement wetland conservation programs",
+      "Promote organic farming"
+    ]
+  }
+}

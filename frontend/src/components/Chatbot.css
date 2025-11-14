@@ -1,0 +1,150 @@
+.chatbot-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  cursor: pointer;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  z-index: 999;
+}
+
+.chatbot-button:hover {
+  transform: scale(1.1);
+}
+
+.chatbot-container {
+  position: fixed;
+  bottom: 100px;
+  right: 30px;
+  width: 400px;
+  max-height: 600px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  display: none;
+  flex-direction: column;
+  z-index: 998;
+}
+
+.chatbot-container.open {
+  display: flex;
+}
+
+.chatbot-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 1rem;
+  border-radius: 15px 15px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chatbot-header h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.chatbot-header button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+}
+
+.chatbot-body {
+  padding: 1.5rem;
+  overflow-y: auto;
+  max-height: 500px;
+}
+
+.state-selector {
+  margin-bottom: 1rem;
+}
+
+.state-selector label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.state-selector select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.loading {
+  text-align: center;
+  padding: 2rem;
+  color: #667eea;
+}
+
+.program-card {
+  background: #f8f9fa;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  border-left: 4px solid #667eea;
+}
+
+.program-card h5 {
+  margin: 0 0 0.5rem 0;
+  color: #333;
+}
+
+.org-tag {
+  display: inline-block;
+  background: #667eea;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 15px;
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+}
+
+.suggestions-section {
+  margin-top: 1.5rem;
+}
+
+.suggestions-section h4 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.suggestions-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.suggestions-section li {
+  padding: 0.75rem;
+  background: #e8f5e9;
+  margin-bottom: 0.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #4caf50;
+}
+
+@media (max-width: 768px) {
+  .chatbot-container {
+    width: calc(100vw - 40px);
+    right: 20px;
+  }
+}
