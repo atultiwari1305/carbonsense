@@ -1,18 +1,77 @@
 .climate-clock-wrapper {
-  position: fixed;
-  top: 70px;
+  position: absolute;
+  top: 64px;                  /* Move to border between navbar & dashboard */
   left: 50%;
   transform: translateX(-50%);
-  z-index: 500;
-  background: rgba(255, 255, 255, 0.95);
-  padding: 0.5rem 1rem;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+  z-index: 300;
+
+  /* Very light glass effect */
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+
+  padding: 0.35rem 0.8rem;    /* Smaller padding */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
+/* Title */
+.clock-row {
+  text-align: center;
+  font-size: 0.75rem;         /* Smaller title */
+  color: #eef2f3;
+  margin-bottom: 3px;
+
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+}
+
+/* Timer row */
+.clock-time {
+  display: flex;
+  gap: 6px;
+}
+
+/* Tiles */
+.clock-block {
+  background: rgba(0, 0, 0, 0.75);
+  color: #63ff87;             /* Slightly softer green */
+  font-weight: bold;
+  padding: 5px 10px;          /* Smaller tile */
+  border-radius: 8px;
+  font-size: 0.9rem;          /* Smaller numbers */
+  min-width: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+/* Units (Y, D, H, M, S) */
+.clock-block span {
+  color: #c7ffd8;
+  font-size: 0.55rem;
+  margin-left: 3px;
+}
+
+/* Responsive */
 @media (max-width: 768px) {
   .climate-clock-wrapper {
-    top: 60px;
-    padding: 0.25rem 0.5rem;
+    top: 57px;
+    padding: 0.25rem 0.6rem;
+  }
+
+  .clock-block {
+    padding: 4px 7px;
+    font-size: 0.75rem;
+    min-width: 34px;
+  }
+
+  .clock-row {
+    font-size: 0.65rem;
   }
 }

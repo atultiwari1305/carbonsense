@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import logo from './logo.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +14,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <div className="navbar-logo">
-          <img src="/logo.png" alt="CarbonSense India" className="logo-img" />
+          <img src={logo} alt="CarbonSense India" className="logo-img" />
           <span className="logo-text">CarbonSense India</span>
         </div>
 
@@ -31,7 +32,7 @@ const Navbar = () => {
           </li>
           <li className="nav-item">
             <Link to="/research" className="nav-link" onClick={toggleMenu}>
-              Research Paper
+              Studies
             </Link>
           </li>
           <li className="nav-item">

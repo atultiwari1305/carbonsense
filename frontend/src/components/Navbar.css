@@ -25,14 +25,16 @@
 }
 
 .logo-img {
-  height: 40px;
-  width: auto;
+  width: 70px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 8px;
 }
 
 .logo-text {
   font-size: 1.5rem;
   font-weight: bold;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #256670 0%, #3ba6b4 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -53,7 +55,7 @@
 }
 
 .nav-link:hover {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #256670 0%, #3ba6b4 100%);
   color: white;
 }
 

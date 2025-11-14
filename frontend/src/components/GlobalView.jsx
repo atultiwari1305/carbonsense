@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Globe from 'react-globe.gl';
 import './GlobalView.css';
 
 const GlobalView = () => {
   const [countries, setCountries] = useState({ features: [] });
   const [ozoneData, setOzoneData] = useState([]);
+  const globeEl = useRef();
 
   useEffect(() => {
     // Fetch countries geojson
@@ -45,35 +46,57 @@ const GlobalView = () => {
   return (
     <div className="global-view-container">
       <h1 className="global-title">Global Ozone Layer Visualization</h1>
+      
       <div className="globe-info">
         <div className="legend">
           <h3>Ozone Levels (Dobson Units)</h3>
-          <div className="legend-item">
-            <span className="color-box" style={{ background: '#00FF00' }}></span>
-            <span>Good (&gt;300)</span>
-          </div>
-          <div className="legend-item">
-            <span className="color-box" style={{ background: '#FFFF00' }}></span>
-            <span>Moderate (260-300)</span>
-          </div>
-          <div className="legend-item">
-            <span className="color-box" style={{ background: '#FFA500' }}></span>
-            <span>Low (220-260)</span>
-          </div>
-          <div className="legend-item">
-            <span className="color-box" style={{ background: '#FF0000' }}></span>
-            <span>Critical (&lt;220)</span>
+          <div className="legend-grid">
+            <div className="legend-item">
+              <span className="color-box" style={{ background: '#00FF00' }}></span>
+              <span>Good (&gt;300)</span>
+            </div>
+            <div className="legend-item">
+              <span className="color-box" style={{ background: '#FFFF00' }}></span>
+              <span>Moderate (260-300)</span>
+            </div>
+            <div className="legend-item">
+              <span className="color-box" style={{ background: '#FFA500' }}></span>
+              <span>Low (220-260)</span>
+            </div>
+            <div className="legend-item">
+              <span className="color-box" style={{ background: '#FF0000' }}></span>
+              <span>Critical (&lt;220)</span>
+            </div>
           </div>
         </div>
       </div>
+
       <div className="globe-wrapper">
         <Globe
+          ref={globeEl}
           globeImageUrl="//unpkg.com/three-globe/example/img/earth-blue-marble.jpg"
           bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
           backgroundImageUrl="//unpkg.com/three-globe/example/img/night-sky.png"
+          
+          /* FIX 1 — Center the globe */
+          onGlobeReady={() => {
+            const controls = globeEl.current.controls();
+            controls.enableZoom = true;
+            controls.autoRotate = true;
+            controls.autoRotateSpeed = 0.8;
+
+            // FIX 2 — Adjust camera distance to prevent cropping
+            globeEl.current.camera().position.z = 350;
+          }}
+
+          /* FIX 3 — DYNAMIC SIZE */
+          width={window.innerWidth * 0.75}
+          height={window.innerHeight * 0.55}
+
+          /* your existing props... */
           polygonsData={countries.features}
-          polygonCapColor={() => 'rgba(200, 200, 200, 0.3)'}
-          polygonSideColor={() => 'rgba(100, 100, 100, 0.1)'}
+          polygonCapColor={() => 'rgba(200,200,200,0.3)'}
+          polygonSideColor={() => 'rgba(100,100,100,0.1)'}
           polygonStrokeColor={() => '#111'}
           pointsData={ozoneData}
           pointLat="lat"
@@ -84,6 +107,7 @@ const GlobalView = () => {
           atmosphereColor="lightskyblue"
           atmosphereAltitude={0.15}
         />
+
       </div>
     </div>
   );
